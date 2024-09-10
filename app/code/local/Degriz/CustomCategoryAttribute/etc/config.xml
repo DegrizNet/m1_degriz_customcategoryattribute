@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Degriz_CustomCategoryAttribute>
+            <version>1.0.0</version>
+        </Degriz_CustomCategoryAttribute>
+    </modules>
+ 
+    <global>
+        <resources>
+            <add_category_attribute>
+                <setup>
+                    <module>Degriz_CustomCategoryAttribute</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </add_category_attribute>
+            <add_category_attribute_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </add_category_attribute_write>
+            <add_category_attribute_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </add_category_attribute_read>
+        </resources>
+    </global>
+</config>

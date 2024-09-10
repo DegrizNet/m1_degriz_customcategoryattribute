@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Degriz_CustomCategoryAttribute>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Degriz_CustomCategoryAttribute>
+    </modules>
+</config>
